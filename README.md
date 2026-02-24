@@ -1,6 +1,8 @@
-# LanX v1.1 - Serverless LAN Chat
+# LanX - Serverless LAN Chat
 
 A lightweight, peer-to-peer LAN chat application with multi-layered end-to-end encryption and file sharing. Compatible with standard Linux distributions and Termux on Android.
+
+![LanX](./assets/lanx.png)
 
 ## Features
 
@@ -208,7 +210,7 @@ Maximum file size: 100MB
 ![Architecture Diagram](./assets/architecture.png)
 
 
-```CLI
+```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                           LanX v1.1                                      │
 ├─────────────────────────────────────────────────────────────────────────┤
