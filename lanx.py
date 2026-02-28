@@ -1978,7 +1978,7 @@ For more information: https://github.com/lanx/lanx-chat
     
     def shutdown(self):
         """Clean shutdown."""
-        self.logger.info("Shutting down LanX...")
+        if self.logger: self.logger.info("Shutting down LanX...")
         
         if self.history:
             self.history.save()
@@ -1989,7 +1989,7 @@ For more information: https://github.com/lanx/lanx-chat
         if self.transport:
             self.transport.stop()
         
-        self.logger.info("LanX shutdown complete")
+        if self.logger: self.logger.info("LanX shutdown complete")
 
 
 def main():
